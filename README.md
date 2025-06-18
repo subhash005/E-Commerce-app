@@ -77,10 +77,12 @@ class AccessToken {
         private const val FIREBASE_MESSAGING_SCOPE =
             "https://www.googleapis.com/auth/firebase.messaging"
     }
-}```
+}
+```
 
-🛡️ IMPORTANT: Never hardcode real service account credentials in public repositories.
-Use a secure method like reading from a file in local.properties or environment variables.
+🛡️ **IMPORTANT:** Never hardcode real service account credentials in public repositories.  
+Instead, use a secure method like reading from `local.properties`, `.env`, or environment variables.
+
 
 ✅ Features
 User App:
