@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.6dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/ak"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvProduct1"
+            android:layout_width="0dp"
+            android:layout_height="286dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:elevation="0dp"
+            app:cardCornerRadius="13dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:orientation="vertical">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/ivImageSlider1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="156dp"
+                    app:iss_auto_cycle="false"
+                    android:background="#DDDDDD"
+                    app:iss_text_align="CENTER"/>
+
+                <TextView
+                    android:id="@+id/tvProductTitle1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginTop="5dp"
+                    android:background="#DDDDDD"
+                    android:textColor="@color/black"
+                    android:textSize="19.5sp"/>
+
+                <TextView
+                    android:id="@+id/tvProductQuantity1"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6F6F6F"
+                    android:background="#DDDDDD"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15.6sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvProductPrice1"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:background="#DDDDDD"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tvAdd1"
+                        android:layout_width="78dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="30dp"
+                        android:textAlignment="viewEnd"
+                        android:textStyle="bold"
+                        android:padding="5.2dp"
+                        android:textColor="@color/green"
+                        android:background="#DDDDDD"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second CardView (Duplicate) -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvProduct2"
+            android:layout_width="0dp"
+            android:layout_height="286dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:elevation="0dp"
+            app:cardCornerRadius="13dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="13dp"
+                android:orientation="vertical">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/ivImageSlider2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="156dp"
+                    app:iss_auto_cycle="false"
+                    android:background="#DDDDDD"
+                    app:iss_text_align="CENTER"/>
+
+                <TextView
+                    android:id="@+id/tvProductTitle2"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_marginTop="5dp"
+                    android:background="#DDDDDD"
+                    android:textColor="@color/black"
+                    android:textSize="19.5sp"/>
+
+                <TextView
+                    android:id="@+id/tvProductQuantity2"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#6F6F6F"
+                    android:background="#DDDDDD"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15.6sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvProductPrice2"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:background="#DDDDDD"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/tvAdd2"
+                        android:layout_width="78dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:padding="5.2dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:textColor="@color/green"
+                        android:background="#DDDDDD"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

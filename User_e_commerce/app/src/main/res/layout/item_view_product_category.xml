@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainBG"
+    android:layout_margin="2.6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:id="@+id/ivCategoryImage"
+            android:scaleType="centerInside"
+            android:src="@drawable/groceries"
+            android:background="@drawable/bg_category"/>
+
+        <TextView
+            android:id="@+id/tvCategoryTitle"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="vegitable and fruits"
+            android:textSize="14.30sp"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:layout_marginTop="6.5dp"/>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

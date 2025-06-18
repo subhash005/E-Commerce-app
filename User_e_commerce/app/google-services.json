@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1013965743824",
+    "firebase_url": "https://cropmanagmentsystem-default-rtdb.firebaseio.com",
+    "project_id": "cropmanagmentsystem",
+    "storage_bucket": "cropmanagmentsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013965743824:android:5f7deddf312195814ae0d5",
+        "android_client_info": {
+          "package_name": "com.example.cropmanagmentsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj2VKv7vMkuymOL0oPk929uEJzEB_5ntw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013965743824:android:55eb23b7c19ff9384ae0d5",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj2VKv7vMkuymOL0oPk929uEJzEB_5ntw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

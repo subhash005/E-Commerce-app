@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".auth.OTPFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb0tpFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/black"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/baseline_keyboard_backspace_24"
+        app:title="OTP verification" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grayish"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/lottie_opt" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:text="Enter the verifiction code"
+            android:textColor="@color/grayish"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 "
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUserNumber"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusTopStart="19dp"
+            app:boxCornerRadiusTopEnd="19dp"
+            app:boxCornerRadiusBottomStart="19dp"
+            app:boxCornerRadiusBottomEnd="19dp"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etOtp1"
+                android:inputType="number"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusTopStart="19dp"
+            app:boxCornerRadiusTopEnd="19dp"
+            app:boxCornerRadiusBottomStart="19dp"
+            app:boxCornerRadiusBottomEnd="19dp"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etOtp2"
+                android:inputType="number"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusTopStart="19dp"
+            app:boxCornerRadiusTopEnd="19dp"
+            app:boxCornerRadiusBottomStart="19dp"
+            app:boxCornerRadiusBottomEnd="19dp"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/etOtp3"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusTopStart="19dp"
+            app:boxCornerRadiusTopEnd="19dp"
+            app:boxCornerRadiusBottomStart="19dp"
+            app:boxCornerRadiusBottomEnd="19dp"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/etOtp4"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusTopStart="19dp"
+            app:boxCornerRadiusTopEnd="19dp"
+            app:boxCornerRadiusBottomStart="19dp"
+            app:boxCornerRadiusBottomEnd="19dp"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/etOtp5"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:boxCornerRadiusTopStart="19dp"
+            app:boxCornerRadiusTopEnd="19dp"
+            app:boxCornerRadiusBottomStart="19dp"
+            app:boxCornerRadiusBottomEnd="19dp"
+            android:layout_weight="1">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/etOtp6"
+                android:gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="14dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

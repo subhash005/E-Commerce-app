@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/addProductFragment"
+        android:title="Add Product"
+        android:icon="@drawable/baseline_add_to_photos_24"/>
+    <item
+        android:id="@+id/orderFragment"
+        android:title="Orders"
+        android:icon="@drawable/baseline_notifications_active_24"/>
+    <item
+        android:title="Customers"
+        android:id="@+id/userDetailsFragment"
+        android:icon="@drawable/baseline_supervised_user_circle_24"/>
+    <item
+        android:title="Records"
+        android:id="@+id/recordFragment"
+        android:icon="@drawable/baseline_notes_24"/>
+</menu>

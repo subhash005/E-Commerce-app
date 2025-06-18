@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#40BFFF"
+    tools:context=".auth.splashFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/onlineshopping"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-commerce"
+            android:textColor="#F5F6F4"
+            android:textStyle="bold"
+            android:textSize="32sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fast As Fast Delivery"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="32sp"/>
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_margin="10sp"
+            android:layout_weight="3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BY SUBHASH"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:textSize="17sp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

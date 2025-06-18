@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Background Color (Transparent) -->
+            <solid android:color="@android:color/transparent" />
+
+            <!-- Rounded Corners -->
+            <corners android:radius="10dp" />
+
+            <!-- Border Color and Width -->
+            <stroke android:width="2dp" android:color="@color/grayish" />
+        </shape>
+    </item>
+</selector>
