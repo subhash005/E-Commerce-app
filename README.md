@@ -98,10 +98,8 @@ Track customer orders and statuses
 Kotlin / Java
 Firebase (Realtime DB, Auth, Storage)
 MVVM Architecture
-RecyclerView, Fragments, and Jetpack components
-🔧 Setup
-Clone the repository:
-git clone https://github.com/yourusername/E-Commerce-app.git
+RecyclerView, Fragments.
+
 
 Open in Android Studio
 Add AccessToken.kt to Admin_e_commerce as described above
